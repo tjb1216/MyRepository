@@ -1,0 +1,18 @@
+// TestProgressCtrl.idl : IDL source for TestProgressCtrl
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (TestProgressCtrl.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(1C1933AB-E07B-497E-98F5-07FC58B11C4E),
+	version(1.0),
+	helpstring("TestProgressCtrl 1.0 Type Library")
+]
+library TestProgressCtrlLib
+{
+	importlib("stdole2.tlb");
+};

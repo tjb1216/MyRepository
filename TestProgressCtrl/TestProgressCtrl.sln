@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProgressCtrl", "TestProgressCtrl\TestProgressCtrl.vcproj", "{85FE847B-504C-422E-8500-EFDDCB5A46B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProgressCtrlPS", "TestProgressCtrl\TestProgressCtrlPS.vcproj", "{AC1516BE-EB30-4B7A-B2D1-7859F0C834FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85FE847B-504C-422E-8500-EFDDCB5A46B6} = {85FE847B-504C-422E-8500-EFDDCB5A46B6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85FE847B-504C-422E-8500-EFDDCB5A46B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85FE847B-504C-422E-8500-EFDDCB5A46B6}.Debug|Win32.Build.0 = Debug|Win32
+		{85FE847B-504C-422E-8500-EFDDCB5A46B6}.Release|Win32.ActiveCfg = Release|Win32
+		{85FE847B-504C-422E-8500-EFDDCB5A46B6}.Release|Win32.Build.0 = Release|Win32
+		{AC1516BE-EB30-4B7A-B2D1-7859F0C834FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC1516BE-EB30-4B7A-B2D1-7859F0C834FB}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
